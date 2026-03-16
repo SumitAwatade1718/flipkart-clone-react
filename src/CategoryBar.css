@@ -1,0 +1,42 @@
+
+.category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+
+.for-you,
+.fashion,
+.mobiles,
+.beauty,
+.electronics {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 14px;
+  transition: all 0.3s ease;
+}
+
+.for-you:hover,
+.fashion:hover,
+.mobiles:hover,
+.beauty:hover,
+.electronics:hover {
+  color: #2874f0;
+}
+
+.for-you-content,
+.fashion-content,
+.mobiles-content,
+.beauty-content,
+.electronics-content {
+  padding: 30px;
+  font-size: 22px;
+  background-color: #f8f8f8;
+  min-height: 200px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+

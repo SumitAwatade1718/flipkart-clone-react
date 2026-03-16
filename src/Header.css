@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 45px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  z-index: 999;
+}
+.left {
+  width: 65%;
+  display: flex;
+  align-items: center;
+}
+.left input {
+  width: 95%;
+  height: 45px;
+  border: 2px solid #1077d7;
+  border-radius: 14px;
+  padding: 0 10px;
+  font-size: 21px;
+  color: #333;
+}
+.right {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.login,
+.more,
+.cart {
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(6, 6, 6);
+  font-size: 21px;
+  cursor: pointer;
+  font-weight: 10;
+}
+button i {
+  margin-right: 5px;
+}
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.fa-angle-down {
+  transition: transform 0.4s ease;
+}
+
+button:hover .fa-angle-down {
+  transform: rotate(180deg);
+}
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 220px;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+}
+
+.dropdown-menu p {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dropdown-menu p:hover {
+  background: linear-gradient(to right,  rgb(219, 234, 254)40%, white 100%);
+}
