@@ -41,6 +41,38 @@ function Mobiles() {
           <img src=" https://rukminim2.flixcart.com/fk-p-flap/196/196/image/dcd5633aa033bd01.jpg?q=60" />
           <p>Nothing</p>
         </div>
+        <div className="card">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/196/196/image/a25162fe095d6d8c.jpg?q=60" />
+          <p>Motorola</p>
+        </div>
+        <div className="card">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/196/196/image/4f486d3c1c55dc6f.jpg?q=60" />
+          <p>Google</p>
+        </div>
+        <div className="card">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/196/196/image/aded8350f9172a7d.jpg?q=60" />
+          <p>Tecno</p>
+        </div>
+        <div className="card">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/196/196/image/f5b98f986fd27c04.jpg?q=60" />
+          <p>Snapdragon</p>
+        </div>
+        <div className="card">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/196/196/image/1d86f08d701c391a.jpg?q=60" />
+          <p>Android</p>
+        </div>
+        <div className="card">
+          <img src="https://rukminim1.flixcart.com/fk-p-flap/196/196/image/b7be9cb9e0fa7304.jpg?q=60" />
+          <p>Samsung</p>
+        </div>
+        <div className="card">
+          <img src="https://rukminim2.flixcart.com/fk-p-flap/196/196/image/724653fb19a4dd61.jpg?q=60" />
+          <p>iPhone</p>
+        </div>
+        <div className="card">
+          <img src=" https://rukminim2.flixcart.com/fk-p-flap/196/196/image/dcd5633aa033bd01.jpg?q=60" />
+          <p>Nothing</p>
+        </div>
       </div>
     </div>
   );

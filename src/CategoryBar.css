@@ -1,22 +1,28 @@
-
 .category {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 12px;
-  border-bottom: 1px solid #ddd;
-  background-color: white;
+  padding: 10px;
+  background: white;
 }
 
 .for-you,
-.fashion,
 .mobiles,
+.fashion,
 .beauty,
 .electronics {
+  display: flex;
+  flex-direction: column; /* 🔥 image top, text bottom */
+  align-items: center;
+  gap: 0px; /* space between image & text */
   cursor: pointer;
-  font-size: 18px;
-  padding: 8px 14px;
-  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+/* IMAGE STYLE */
+.category img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 .for-you:hover,
@@ -40,3 +46,12 @@
   border-radius: 6px;
 }
 
+.for-you-content img,
+.fashion-content img,
+.mobiles-content img,
+.beauty-content img,
+.electronics-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}

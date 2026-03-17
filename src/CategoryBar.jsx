@@ -30,21 +30,42 @@ function CategoryBar() {
     <>
       <div className="category">
         <div className="for-you" onClick={forYou}>
-          For You
+          <img
+            src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/all.svg"
+            alt=""
+          />
+          <p>For You</p>
         </div>
         <div className="mobiles" onClick={mobiles}>
-          Mobiles
+          <img
+            src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/mobiles.svg"
+            alt="Mobiles"
+          />
+          <p>Mobiles</p>
         </div>
+
         <div className="fashion" onClick={fashion}>
-          Fashion
+          <img
+            src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/fashion.svg"
+            alt="Fashion"
+          />
+          <p>Fashion</p>
         </div>
 
         <div className="beauty" onClick={beauty}>
-          Beauty
+          <img
+            src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/beauty.svg"
+            alt="Beauty"
+          />
+          <p>Beauty</p>
         </div>
 
         <div className="electronics" onClick={electronics}>
-          Electronics
+          <img
+            src="https://static-assets-web.flixcart.com/apex-static/images/svgs/L1Nav/electronics.svg"
+            alt="Electronics"
+          />
+          <p>Electronics</p>
         </div>
       </div>
 
