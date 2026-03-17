@@ -12,7 +12,7 @@ function Header() {
       </div>
 
       <div className="right">
-        {/* LOGIN */}
+        
         <div
           className="dropdown"
           onMouseEnter={() => setLoginOpen(true)}
@@ -33,7 +33,6 @@ function Header() {
           )}
         </div>
 
-        {/* MORE */}
         <div
           className="dropdown"
           onMouseEnter={() => setMoreOpen(true)}

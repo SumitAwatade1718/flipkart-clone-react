@@ -1,18 +1,21 @@
 import { useState } from "react";
 import "./CategoryBar.css";
+import ForYou from "./ForYou";
+import Fashion from "./Fashion";
+import Mobiles from "./Mobiles";
+import Beauty from "./Beauty";
+import Electronics from "./Electronics";
 
 function CategoryBar() {
   const [active, setActive] = useState("for-you");
   function forYou() {
     setActive("for-you");
   }
-
-  function fashion() {
-    setActive("fashion");
-  }
-
   function mobiles() {
     setActive("mobiles");
+  }
+  function fashion() {
+    setActive("fashion");
   }
 
   function beauty() {
@@ -29,13 +32,11 @@ function CategoryBar() {
         <div className="for-you" onClick={forYou}>
           For You
         </div>
-
-        <div className="fashion" onClick={fashion}>
-          Fashion
-        </div>
-
         <div className="mobiles" onClick={mobiles}>
           Mobiles
+        </div>
+        <div className="fashion" onClick={fashion}>
+          Fashion
         </div>
 
         <div className="beauty" onClick={beauty}>
@@ -47,35 +48,11 @@ function CategoryBar() {
         </div>
       </div>
 
-      {active === "for-you" && (
-        <div className="for-you-content">
-          <h2>Recommended Products</h2>
-        </div>
-      )}
-
-      {active === "fashion" && (
-        <div className="fashion-content">
-          <h2>Fashion Products</h2>
-        </div>
-      )}
-
-      {active === "mobiles" && (
-        <div className="mobiles-content">
-          <h2>Mobile Phones</h2>
-        </div>
-      )}
-
-      {active === "beauty" && (
-        <div className="beauty-content">
-          <h2>Beauty Products</h2>
-        </div>
-      )}
-
-      {active === "electronics" && (
-        <div className="electronics-content">
-          <h2>Electronic Items</h2>
-        </div>
-      )}
+      {active === "for-you" && <ForYou />}
+      {active === "fashion" && <Fashion />}
+      {active === "mobiles" && <Mobiles />}
+      {active === "beauty" && <Beauty />}
+      {active === "electronics" && <Electronics />}
     </>
   );
 }
