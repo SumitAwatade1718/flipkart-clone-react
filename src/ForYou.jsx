@@ -3,7 +3,6 @@ import "./Common.css";
 function ForYou() {
   return (
     <div className="page">
-      {/* TOP BANNERS */}
       <div className="top-banners">
         <img
           src="https://rukminim1.flixcart.com/fk-p-flap/880/420/image/f1de84aafb5d76c0.jpg?q=60"
@@ -19,7 +18,6 @@ function ForYou() {
         />
       </div>
 
-      {/* PRODUCTS */}
       <div className="products">
         <div className="card">
           <img
