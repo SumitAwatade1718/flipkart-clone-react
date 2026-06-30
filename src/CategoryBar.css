@@ -11,9 +11,9 @@
 .beauty,
 .electronics {
   display: flex;
-  flex-direction: column; /* 🔥 image top, text bottom */
+  flex-direction: column; 
   align-items: center;
-  gap: 0px; /* space between image & text */
+  gap: 0px; 
   cursor: pointer;
   font-size: 14px;
 }
@@ -47,10 +47,14 @@
 }
 
 .for-you-content img,
-.fashion-content img,
 .mobiles-content img,
 .beauty-content img,
 .electronics-content img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.fashion-content img{
   width: 100px;
   height: 100px;
   object-fit: contain;
